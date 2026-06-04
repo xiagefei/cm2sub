@@ -20,7 +20,7 @@ let 获取代理IP;
 let proxyIPs = [
 	atob('cHJveHlpcC5meHhrLmRlZHluLmlv'),
 ];
-let 匹配PROXYIP = [99.63.206.163:443];
+let 匹配PROXYIP = [99.63.206.163];
 let socks5DataURL = '';
 let BotToken = '';
 let ChatID = '';
