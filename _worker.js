@@ -20,7 +20,7 @@ let 获取代理IP;
 let proxyIPs = [
 	atob('cHJveHlpcC5meHhrLmRlZHluLmlv'),
 ];
-let 匹配PROXYIP = [];
+let 匹配PROXYIP = [99.63.206.163:443];
 let socks5DataURL = '';
 let BotToken = '';
 let ChatID = '';
@@ -42,7 +42,7 @@ let MamaJustKilledAMan = ['telegram', 'twitter', 'miaoko'];
 let proxyIPPool = [];
 let socks5Data;
 let alpn = '';
-let 网络备案 = `<a href='https://t.me/CMLiussss'>萌ICP备-20240707号</a>`;//写你自己的维护者广告
+let 网络备案 = `<a href='https://usage.using.us.ci'>萌宝ICP备-202606070612号</a>`;//写你自己的维护者广告
 let 额外ID = '0';
 let 加密方式 = 'auto';
 let 网站图标, 网站头像, 网站背景, xhttp = '';
@@ -189,7 +189,7 @@ async function 整理测速结果(tls) {
 					if (csvUrl.includes('proxyip=true') &&
 						row[tlsIndex].toUpperCase() === 'TRUE' &&
 						!httpsPorts.includes(port)) {
-						proxyIPPool.push(`${ipAddress}:${port}`);
+						proxyIPPool。push(`${ipAddress}:${port}`);
 					}
 
 					return formattedAddress;
